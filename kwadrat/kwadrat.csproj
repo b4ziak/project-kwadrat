@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="ball.gif" />
+    <None Remove="Roblox_Logo_2022.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="ball.gif" />
+    <Resource Include="Roblox_Logo_2022.jpg" />
+  </ItemGroup>
+
+</Project>
